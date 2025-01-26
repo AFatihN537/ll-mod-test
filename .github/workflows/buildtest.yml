@@ -13,7 +13,7 @@ jobs:
 
     - run: xmake repo -u
 
-    - run: xmake f -m -y debug
+    - run: xmake f -y -m debug
 
     - run: xmake
 
